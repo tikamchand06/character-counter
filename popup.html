@@ -7,38 +7,37 @@
   <body>
     <header class="flex-item gap-1 p-1">
       <img src="./icon.png" class="maxh-42px" alt="logo" />
-      <h1 class="m-0">Character Counter</h1>
+      <h1 class="m-0 fw-600">Character Counter</h1>
     </header>
 
-    <main class="flex-item">
+    <div class="container">
       <textarea id="inputText" placeholder="Enter your text here..."></textarea>
-
-      <div class="flex-item gap-1 flex-col p-1 sidebar">
-        <div class="flex-item gap-1 space-between">
-          <label>Characters:</label>
+      <div class="counter-wrapper">
+        <div class="counter-item">
+          <span class="counter-label">Characters:</span>
           <span id="charCount">0</span>
         </div>
-        <div class="flex-item gap-1 space-between">
-          <label>Words:</label>
+        <div class="counter-item">
+          <span class="counter-label">Words:</span>
           <span id="wordCount">0</span>
         </div>
-        <div class="flex-item gap-1 space-between">
-          <label>Sentences:</label>
+        <div class="counter-item">
+          <span class="counter-label">Sentences:</span>
           <span id="sentenceCount">0</span>
         </div>
-        <div class="flex-item gap-1 space-between">
-          <label>Paragraph:</label>
+        <div class="counter-item">
+          <span class="counter-label">Paragraphs:</span>
           <span id="paragraphCount">0</span>
         </div>
-        <div class="flex-item gap-1 space-between">
-          <label>Spaces:</label>
+        <div class="counter-item">
+          <span class="counter-label">Spaces:</span>
           <span id="spaceCount">0</span>
         </div>
       </div>
-    </main>
+    </div>
 
-    <footer class="p-1 bg-f9f9f9">
-      &copy; <span id="currentYear">2023</span> Developed by <a href="https://www.tcmhack.in">https://www.tcmhack.in</a>
+    <footer class="p-1 bg-f9f9f9 font-14px">
+      &copy; <span id="currentYear">2023</span> Designed & Developed by <a href="https://www.tcmhack.in">https://www.tcmhack.in</a>
     </footer>
 
     <script src="popup.js"></script>
