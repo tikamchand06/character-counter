@@ -1,0 +1,34 @@
+.notyf__toast {
+  border-radius: 8px !important;
+}
+.notyf__icon {
+  width: 32px;
+  height: 32px;
+  min-width: 32px !important;
+  min-height: 32px !important;
+}
+.notyf__icon img {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+.notyf__message {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+}
+.notyf__toast--success .notyf__message {
+  color: #0a81e0 !important;
+}
+.notyf__toast--error .notyf__message {
+  color: #f44336 !important;
+}
+
+.notyf__toast--success .notyf__dismiss-btn {
+  background-color: #0a81e0 !important;
+}
+.notyf__toast--error .notyf__dismiss-btn {
+  background-color: #f44336 !important;
+}
